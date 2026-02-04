@@ -3,17 +3,17 @@ from quantum_optimizer import quantum_route_optimizer
 
 app = Flask(__name__)
 
-# 1️⃣ Root endpoint
+
 @app.route("/")
 def home():
     return "Hello DevOps Intern!"
 
-# 2️⃣ Health check endpoint
+
 @app.route("/health")
 def health():
     return "OK"
 
-# 3️⃣ Existing quantum optimization endpoint
+
 @app.route("/optimize-route", methods=["POST"])
 def optimize_route():
     data = request.get_json()
