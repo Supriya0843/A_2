@@ -1,7 +1,7 @@
 # A_2
 
 # Intern DevOps App
-A simple web application built to demonstarte a basic DevOps workflow using GitHub, CI Pipeline, Docker and finally the Deployment.
+A simple web application built to demonstrate a basic DevOps workflow using GitHub, CI Pipeline, Docker and finally the Deployment.
 
 # Objective
 Building a small web application, automate testing with GitHub actions, containerizing it using Docker, and deploying it online using Render.
