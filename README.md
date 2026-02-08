@@ -31,8 +31,8 @@ Building a small web application, automate testing with GitHub actions, containe
 
         python app.py
  
- 5. Accessing the application
-    - http://127.0.0.1:5000
+ 5. Accessing the application:
+    - http://127.0.0.1:5000/
     
     - http://127.0.0.1:5000/health
  
@@ -46,10 +46,17 @@ Building a small web application, automate testing with GitHub actions, containe
    
          docker run -p 5000:5000 intern-devops-app
    
-3. Accessing the application
+3. Accessing the application:
+   - http://127.0.0.1:5000/
+
+   - http://127.0.0.1:5000/health
    
 # CI Pipeline explanation
 This project uses GitHub Actions for Continuous Integration (CI).
+
 On every push to the main branch, the pipeline automatically installs dependencies and verifies that the Flask application runs successfully.
 
 # Deployed link
+ - https://a-2-2.onrender.com
+   
+ - https://a-2-2.onrender.com/health
