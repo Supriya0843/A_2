@@ -6,7 +6,7 @@ A simple web application built to demonstrate a basic DevOps workflow using GitH
 # Objective
 Building a small web application, automate testing with GitHub actions, containerizing it using Docker, and deploying it online using Render.
 
-# Tech Stack
+# Tech Stack used
 - Python
 - Flask
 - Docker
