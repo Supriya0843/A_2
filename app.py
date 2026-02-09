@@ -22,7 +22,7 @@ def optimize_route():
     optimized_route = quantum_route_optimizer(zones)
 
     return jsonify({
-        "status": "success",
+        "status": "success and done",
         "optimized_route": optimized_route
     })
 
