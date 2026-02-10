@@ -47,9 +47,9 @@ Building a small web application, automate testing with GitHub actions, containe
          docker run -p 5000:5000 intern-devops-app
    
 3. Accessing the application:
-   - http://127.0.0.1:5000/
+   -  https://marjory-wagonless-charlena.ngrok-free.dev
 
-   - http://127.0.0.1:5000/health
+   -  https://marjory-wagonless-charlena.ngrok-free.dev/health
    
 # CI Pipeline explanation
 This project uses GitHub Actions for Continuous Integration (CI).
