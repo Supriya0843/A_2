@@ -36,17 +36,23 @@ Building a small web application, automate testing with GitHub actions, containe
     
     - http://127.0.0.1:5000/health
  
- 
-
 # Running the application using Docker
 1. Building Docker image:
    
          docker build -t intern-devops-app .
+
 2. Running Docker container:
    
          docker run -p 5000:5000 intern-devops-app
    
-3. Accessing the application:
+3. Public access using ngrok
+     To make the dockerized application publicly accessible, ngrok is used to create a secure tunnel from the internet to the local Docker container.
+
+     - Start ngrok:
+         ngrok http 5000
+
+     Public URLs:
+
    -  https://marjory-wagonless-charlena.ngrok-free.dev
 
    -  https://marjory-wagonless-charlena.ngrok-free.dev/health
@@ -57,6 +63,7 @@ This project uses GitHub Actions for Continuous Integration (CI).
 On every push to the main branch, the pipeline automatically installs dependencies and verifies that the Flask application runs successfully.
 
 # Deployed link
+
  - https://a-2-2.onrender.com
    
  - https://a-2-2.onrender.com/health
