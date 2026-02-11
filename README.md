@@ -46,6 +46,7 @@ Building a small web application, automate testing with GitHub actions, containe
          docker run -p 5000:5000 intern-devops-app
    
 3. Public access using ngrok
+
      To make the dockerized application publicly accessible, ngrok is used to create a secure tunnel from the internet to the local Docker container.
 
      - Start ngrok:
